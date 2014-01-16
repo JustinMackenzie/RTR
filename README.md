@@ -21,5 +21,5 @@ The Object Management module deals with the organization of and implementation o
 is based off of the entity-component pattern often used in games, where the logic of a game entity is stored in objects
 called "Components" that are simply used in aggregation. This method avoids large hierarchies through inheritance.
 
-The Interface Mangement module deals with displaying information to the user. It contains the cocos2d scenes and layers 
-for rendering the game to the user.
+The Game Engine module deals with displaying information to the user. It contains the cocos2d scenes and layers 
+for rendering the game to the user. Game Engine is a poor name for the purpose of this module, but that was the decision early on and it was not changed.
